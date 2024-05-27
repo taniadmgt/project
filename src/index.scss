@@ -1,5 +1,118 @@
 @charset "utf-8";
 
-h1 {
-  color: blue;
+#navbar {
+  background-color: rgb(25, 154, 214);
+}
+
+#socialnetwork {
+  width: 75px !important;
+}
+
+#main {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 30px;
+}
+
+#peopletwo {
+  border-radius: 20%;
+  height: 550px !important;
+  width: 500px !important;
+  background-color: aqua;
+}
+
+#welcome {
+  justify-content: center;
+}
+
+.freeman-regular {
+  font-family: "Freeman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#buttonslogin {
+  align-items: space-between;
+}
+
+#buttonregister {
+  margin: 0 auto;
+  height: 70px;
+  width: 150px; 
+}
+
+.sedan-sc-regular {
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#happyman {
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+}
+
+#homecard {
+  border-radius: 40px;
+}
+
+#homebutton1 {
+  margin-left: 30px;
+}
+
+#homebutton2 {
+  margin-left: 10px;
+}
+
+.fonthigh {
+  font-family: "Poetsen One", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.fontbass {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.fonttitle {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+#template {
+  width : 500px;
+  padding-left: 4%;
+}
+
+.template-card {
+  border-radius: 50px !important;
+}
+
+.card-text {
+  margin-left: 25%;
+  font-family: "Playfair Display", serif;
+}
+
+.button-template {
+  margin-left: 35%;
+}
+
+.cardlittletext {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+
+.cards {
+  margin-top: 15px;
+}
+
+.spec {
+justify-content: space-around;
 }
