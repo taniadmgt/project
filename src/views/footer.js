@@ -3,7 +3,7 @@ import instagram from '../assets/instagram.png';
 import twitter from '../assets/twitter.png';
 import whatsapp from '../assets/whatsapp.png';
 
-export default () => (`
+const footer = () => `
 <footer class="mt-5">
 <div class="card text-center">
 <div class="card-header"> 
@@ -22,4 +22,6 @@ EVENT MAKER COMPANY
   </div>
 </div>
 </footer
-`);
+`;
+
+export default footer;

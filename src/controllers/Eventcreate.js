@@ -1,8 +1,8 @@
 import nav from '../views/nav';
 import footer from '../views/footer';
-import register from '../views/registerView';
+import eventcreateView from '../views/eventcreateView';
 
-const Register = class {
+const Eventcreate = class {
   constructor() {
     this.el = document.querySelector('#root');
     this.run();
@@ -11,7 +11,7 @@ const Register = class {
   render() {
     return `
     ${nav()}
-    ${register()}
+    ${eventcreateView()}
     ${footer()}
 `;
   }
@@ -21,4 +21,4 @@ const Register = class {
   }
 };
 
-export default Register;
+export default Eventcreate;
